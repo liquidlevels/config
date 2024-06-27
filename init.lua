@@ -27,7 +27,7 @@ require("lazy").setup(plugins, opts)
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-    ensure_installed = {"lua", "c", "haskell", "javascript", "java"},
+    ensure_installed = {"lua", "c", "haskell", "javascript", "java",},
     highlight = { enable = true },
     indent = { enable = true },
 })
